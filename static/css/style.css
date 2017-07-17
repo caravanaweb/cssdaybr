@@ -2083,67 +2083,51 @@ svg,
 }
 
 @media (max-width: 480px) {
-  #speaker-iago-barboza > .number {
-    background-image: url("/startup/common-files/img/crew/iago-barboza.jpg");
+  #speaker-simone-amorim > .number {
+    background-image: url("/startup/common-files/img/crew/simone-amorim.jpg");
   }
 
-  #speaker-rodolfo-dias > .number {
-    background-image: url("/startup/common-files/img/crew/rodolfo-dias.jpg");
+  #speaker-talita-oliveira > .number {
+    background-image: url("/startup/common-files/img/crew/talita-oliveira.jpg");
   }
 
-  #speaker-juarez-filho > .number {
-    background-image: url("/startup/common-files/img/crew/juarez-filho.jpg");
+  #speaker-fernanda-ourives > .number {
+    background-image: url("/startup/common-files/img/crew/fernanda-ourives.jpg");
   }
 
-  #speaker-gustavo-costa > .number {
-    background-image: url("/startup/common-files/img/crew/gustavo-costa.jpg");
+  #speaker-jordana-morais > .number {
+    background-image: url("/startup/common-files/img/crew/jordana-morais.jpg");
   }
 
-  #speaker-marcio-vicente > .number {
-    background-image: url("/startup/common-files/img/crew/marcio-vicente.jpg");
+  #speaker-jessica-costa > .number {
+    background-image: url("/startup/common-files/img/crew/jessica-costa.jpg");
   }
 
-  #speaker-thulio-philipe > .number {
-    background-image: url("/startup/common-files/img/crew/thulio-philipe.jpg");
-  }
-
-  #speaker-djalma-junior > .number {
-    background-image: url("/startup/common-files/img/crew/djalma-junior.jpg");
-  }
-
-  #speaker-djanilson-alves > .number {
-    background-image: url("/startup/common-files/img/crew/djanilson-alves.jpg");
+  #speaker-eloa-alves > .number {
+    background-image: url("/startup/common-files/img/crew/eloa-alves.jpg");
   }
 }
 
-  #speaker-iago-barboza.active > .number {
-    background-image: url("/startup/common-files/img/crew/iago-barboza.jpg");
-  }
+#speaker-simone-amorim.active > .number {
+  background-image: url("/startup/common-files/img/crew/simone-amorim.jpg");
+}
 
-  #speaker-rodolfo-dias.active > .number {
-    background-image: url("/startup/common-files/img/crew/rodolfo-dias.jpg");
-  }
+#speaker-talita-oliveira.active > .number {
+  background-image: url("/startup/common-files/img/crew/talita-oliveira.jpg");
+}
 
-  #speaker-juarez-filho.active > .number {
-    background-image: url("/startup/common-files/img/crew/juarez-filho.jpg");
-  }
+#speaker-fernanda-ourives.active > .number {
+  background-image: url("/startup/common-files/img/crew/fernanda-ourives.jpg");
+}
 
-  #speaker-gustavo-costa.active > .number {
-    background-image: url("/startup/common-files/img/crew/gustavo-costa.jpg");
-  }
+#speaker-jordana-morais.active > .number {
+  background-image: url("/startup/common-files/img/crew/jordana-morais.jpg");
+}
 
-  #speaker-marcio-vicente.active > .number {
-    background-image: url("/startup/common-files/img/crew/marcio-vicente.jpg");
-  }
+#speaker-jessica-costa.active > .number {
+  background-image: url("/startup/common-files/img/crew/jessica-costa.jpg");
+}
 
-  #speaker-thulio-philipe.active > .number {
-    background-image: url("/startup/common-files/img/crew/thulio-philipe.jpg");
-  }
-
-  #speaker-djalma-junior.active > .number {
-    background-image: url("/startup/common-files/img/crew/djalma-junior.jpg");
-  }
-
-  #speaker-djanilson-alves.active > .number {
-    background-image: url("/startup/common-files/img/crew/djanilson-alves.jpg");
-  }
+#speaker-eloa-alves.active > .number {
+  background-image: url("/startup/common-files/img/crew/eloa-alves.jpg");
+}
