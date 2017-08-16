@@ -2131,3 +2131,56 @@ svg,
 #speaker-eloa-alves.active > .number {
   background-image: url("/startup/common-files/img/crew/eloa-alves.jpg");
 }
+
+/*  */
+
+.map-area {
+  height: 640px;
+}
+
+.local-info {
+  position: absolute;
+  margin-top: 10%;
+  width: 400px;
+  height: 400px;
+  z-index: 2;
+  background-color: #3C1F56;
+  padding: 20px 15px;
+}
+
+.local-title {
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.local-description {
+  font-size: 18px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.map-container {
+  z-index: 1;
+  border-top: 2px solid #E74C3C;
+  border-bottom: 2px solid #E74C3C;
+  height: 100%;
+}
+
+.map-infowindow h5, 
+.map-infowindow p {
+  margin-bottom: 0;
+}
+
+.container-title {
+  text-align: center;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.partners-container div {
+  margin-bottom: 60px;
+}
+
+.partners-container h3 {
+  margin-bottom: 50px;
+}

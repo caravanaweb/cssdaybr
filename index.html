@@ -250,7 +250,7 @@
             </div>
         </section>
 
-        <section class="content-17 v-center">
+        <section class="content-17 v-center" id="twitter">
             <div>
                 <div class="container">
                     <h3><img src="startup/common-files/icons/twitter@2x.png" width="100" height="100" alt=""></h3>
@@ -261,6 +261,92 @@
                         </div>
                     </div>
                     <p>Siga o <a href="https://twitter.com/cssdaybr">@cssdaybr</a> ou mencione a hashtag <b>#cssdaybr17</b> no Twitter e interaja conosco</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="section content-3 v-center" id="local">
+            <div class="map-area">        
+                <div class="map-container" id="map-container"></div>
+            </div>
+        </div>
+
+        <section class="crew-4 center" id="sponsors">
+            <div class="container">
+                <h2 class="container-title">Patrocinadores</h2>
+
+                <div class="row partners-container">
+                    <h3>Diamante</h3>
+
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <a href="">
+                            <img src="/startup/common-files/img/partners/designculture.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="row partners-container">
+                    <h3>Ouro</h3>
+
+                    <div class="col-sm-4 col-sm-offset-4">
+                        <a href="">
+                            <img src="/startup/common-files/img/partners/designculture.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="row partners-container">
+                    <h3>Prata</h3>
+
+                    <div class="col-sm-4 col-sm-offset-2">
+                        <a href="">
+                            <img src="/startup/common-files/img/partners/designculture.svg" alt="">
+                        </a>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <a href="">
+                            <img src="/startup/common-files/img/partners/designculture.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="row partners-container">
+                    <h3>Bronze</h3>
+
+                    <div class="col-sm-4 col-sm-offset-2">
+                        <a href="">
+                            <img src="/startup/common-files/img/partners/designculture.svg" alt="">
+                        </a>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <a href="">
+                            <img src="/startup/common-files/img/partners/designculture.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="row partners-container">
+                    <h3>Parceiros</h3>
+
+                    <div class="col-sm-4">
+                        <a href="">
+                            <img src="/startup/common-files/img/partners/designculture.svg" alt="">
+                        </a>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <a href="">
+                            <img src="/startup/common-files/img/partners/designculture.svg" alt="">
+                        </a>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <a href="">
+                            <img src="/startup/common-files/img/partners/designculture.svg" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -308,21 +394,24 @@
         </section>  
         
         <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-76007643-1', 'auto');
-        ga('send', 'pageview');
-
+            ga('create', 'UA-76007643-1', 'auto');
+            ga('send', 'pageview');
         </script>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+
         <script src="startup/common-files/js/jquery-1.10.2.min.js"></script>
         <script src="startup/common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
         <script src="startup/flat-ui/js/bootstrap.min.js"></script>
         <script src="startup/common-files/js/page-transitions.js"></script>
         <script src="startup/common-files/js/easing.min.js"></script>
         <script src="startup/common-files/js/startup-kit.js"></script>
+        <script src="static/js/map.js"></script>
+
         <script>
             $('#google-maps').addClass('scrolloff');
             $('.map').on('mouseup',function() {
