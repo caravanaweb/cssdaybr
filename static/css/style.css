@@ -2169,3 +2169,7 @@ svg,
 .partners-container h3 {
   margin-bottom: 50px;
 }
+
+.partners-container .partners {
+  transform: scale(0.7);
+}
