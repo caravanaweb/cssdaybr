@@ -2087,24 +2087,16 @@ svg,
     background-image: url("/startup/common-files/img/crew/simone-amorim.jpg");
   }
 
-  #speaker-talita-oliveira > .number {
-    background-image: url("/startup/common-files/img/crew/talita-oliveira.jpg");
+  #speaker-carolina-carneiro > .number {
+    background-image: url("/startup/common-files/img/crew/carolina-carneiro.png");
   }
 
-  #speaker-fernanda-ourives > .number {
-    background-image: url("/startup/common-files/img/crew/fernanda-ourives.jpg");
+  #speaker-lhais-rodrigues > .number {
+    background-image: url("/startup/common-files/img/crew/lhais-rodrigues.jpg");
   }
 
-  #speaker-jordana-morais > .number {
-    background-image: url("/startup/common-files/img/crew/jordana-morais.jpg");
-  }
-
-  #speaker-jessica-costa > .number {
-    background-image: url("/startup/common-files/img/crew/jessica-costa.jpg");
-  }
-
-  #speaker-eloa-alves > .number {
-    background-image: url("/startup/common-files/img/crew/eloa-alves.jpg");
+  #speaker-debora-correia > .number {
+    background-image: url("/startup/common-files/img/crew/debora-correia.jpg");
   }
 }
 
@@ -2112,24 +2104,16 @@ svg,
   background-image: url("/startup/common-files/img/crew/simone-amorim.jpg");
 }
 
-#speaker-talita-oliveira.active > .number {
-  background-image: url("/startup/common-files/img/crew/talita-oliveira.jpg");
+#speaker-carolina-carneiro.active > .number {
+  background-image: url("/startup/common-files/img/crew/carolina-carneiro.png");
 }
 
-#speaker-fernanda-ourives.active > .number {
-  background-image: url("/startup/common-files/img/crew/fernanda-ourives.jpg");
+#speaker-lhais-rodrigues.active > .number {
+  background-image: url("/startup/common-files/img/crew/lhais-rodrigues.jpg");
 }
 
-#speaker-jordana-morais.active > .number {
-  background-image: url("/startup/common-files/img/crew/jordana-morais.jpg");
-}
-
-#speaker-jessica-costa.active > .number {
-  background-image: url("/startup/common-files/img/crew/jessica-costa.jpg");
-}
-
-#speaker-eloa-alves.active > .number {
-  background-image: url("/startup/common-files/img/crew/eloa-alves.jpg");
+#speaker-debora-correia.active > .number {
+  background-image: url("/startup/common-files/img/crew/debora-correia.jpg");
 }
 
 /*  */
