@@ -1160,6 +1160,9 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-weight: normal;
   color: rgba(255, 255, 255, 0.7);
 }
+.btn-tickets {
+  display: block;
+}
 .aside .btn {
   margin-top: 65px;
   padding-left: 37px;
