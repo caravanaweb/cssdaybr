@@ -1147,7 +1147,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   position: relative;
   display: inline-block;
   margin: -1px 0 17px;
-  font-size: 140px;
+  font-size: 90px;
+  text-transform: uppercase;
   font-weight: normal;
   color: white;
   font-weight: 600;
@@ -1159,6 +1160,9 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   font-size: 20px;
   font-weight: normal;
   color: rgba(255, 255, 255, 0.7);
+}
+.btn-tickets {
+  display: block;
 }
 .aside .btn {
   margin-top: 65px;
@@ -2087,24 +2091,16 @@ svg,
     background-image: url("/startup/common-files/img/crew/simone-amorim.jpg");
   }
 
-  #speaker-talita-oliveira > .number {
-    background-image: url("/startup/common-files/img/crew/talita-oliveira.jpg");
+  #speaker-carolina-carneiro > .number {
+    background-image: url("/startup/common-files/img/crew/carolina-carneiro.png");
   }
 
-  #speaker-fernanda-ourives > .number {
-    background-image: url("/startup/common-files/img/crew/fernanda-ourives.jpg");
+  #speaker-lhais-rodrigues > .number {
+    background-image: url("/startup/common-files/img/crew/lhais-rodrigues.jpg");
   }
 
-  #speaker-jordana-morais > .number {
-    background-image: url("/startup/common-files/img/crew/jordana-morais.jpg");
-  }
-
-  #speaker-jessica-costa > .number {
-    background-image: url("/startup/common-files/img/crew/jessica-costa.jpg");
-  }
-
-  #speaker-eloa-alves > .number {
-    background-image: url("/startup/common-files/img/crew/eloa-alves.jpg");
+  #speaker-debora-correia > .number {
+    background-image: url("/startup/common-files/img/crew/debora-correia.jpg");
   }
 }
 
@@ -2112,22 +2108,72 @@ svg,
   background-image: url("/startup/common-files/img/crew/simone-amorim.jpg");
 }
 
-#speaker-talita-oliveira.active > .number {
-  background-image: url("/startup/common-files/img/crew/talita-oliveira.jpg");
+#speaker-carolina-carneiro.active > .number {
+  background-image: url("/startup/common-files/img/crew/carolina-carneiro.png");
 }
 
-#speaker-fernanda-ourives.active > .number {
-  background-image: url("/startup/common-files/img/crew/fernanda-ourives.jpg");
+#speaker-lhais-rodrigues.active > .number {
+  background-image: url("/startup/common-files/img/crew/lhais-rodrigues.jpg");
 }
 
-#speaker-jordana-morais.active > .number {
-  background-image: url("/startup/common-files/img/crew/jordana-morais.jpg");
+#speaker-debora-correia.active > .number {
+  background-image: url("/startup/common-files/img/crew/debora-correia.jpg");
 }
 
-#speaker-jessica-costa.active > .number {
-  background-image: url("/startup/common-files/img/crew/jessica-costa.jpg");
+/*  */
+
+.map-area {
+  height: 640px;
 }
 
-#speaker-eloa-alves.active > .number {
-  background-image: url("/startup/common-files/img/crew/eloa-alves.jpg");
+.local-info {
+  position: absolute;
+  margin-top: 10%;
+  width: 400px;
+  height: 400px;
+  z-index: 2;
+  background-color: #3C1F56;
+  padding: 20px 15px;
+}
+
+.local-title {
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.local-description {
+  font-size: 18px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.map-container {
+  z-index: 1;
+  border-top: 2px solid #E74C3C;
+  border-bottom: 2px solid #E74C3C;
+  height: 100%;
+}
+
+.map-infowindow h5, 
+.map-infowindow p {
+  margin-bottom: 0;
+}
+
+.container-title {
+  text-align: center;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.partners-container div {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.partners-container h3 {
+  margin-bottom: 50px;
+}
+
+.partners-container .partners {
+  transform: scale(0.7);
 }
