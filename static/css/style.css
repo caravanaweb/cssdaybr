@@ -1147,7 +1147,8 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   position: relative;
   display: inline-block;
   margin: -1px 0 17px;
-  font-size: 140px;
+  font-size: 90px;
+  text-transform: uppercase;
   font-weight: normal;
   color: white;
   font-weight: 600;
