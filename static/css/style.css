@@ -1285,6 +1285,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background: top 50% no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
+  background-position: center;
   opacity: 90;
   filter: alpha(opacity=9000);
   opacity: 0.9;
@@ -2102,6 +2103,18 @@ svg,
   #speaker-debora-correia > .number {
     background-image: url("/startup/common-files/img/crew/debora-correia.jpg");
   }
+
+  #speaker-eduarda-scharnhorst > .number {
+    background-image: url("/startup/common-files/img/crew/eduarda-scharnhorst.jpg");
+  }
+
+  #speaker-mariana-albuquerque > .number {
+    background-image: url("/startup/common-files/img/crew/mariana-albuquerque.jpg");
+  }
+
+  #speaker-nicolle-cysneiros > .number {
+    background-image: url("/startup/common-files/img/crew/nicolle-cysneiros.jpg");
+  }
 }
 
 #speaker-simone-amorim.active > .number {
@@ -2118,6 +2131,18 @@ svg,
 
 #speaker-debora-correia.active > .number {
   background-image: url("/startup/common-files/img/crew/debora-correia.jpg");
+}
+
+#speaker-eduarda-scharnhorst.active > .number {
+  background-image: url("/startup/common-files/img/crew/eduarda-scharnhorst.jpg");
+}
+
+#speaker-mariana-albuquerque.active > .number {
+  background-image: url("/startup/common-files/img/crew/mariana-albuquerque.jpg");
+}
+
+#speaker-nicolle-cysneiros.active > .number {
+  background-image: url("/startup/common-files/img/crew/nicolle-cysneiros.jpg");
 }
 
 /*  */
