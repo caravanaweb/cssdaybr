@@ -824,7 +824,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   color: #fff;
 }
 /**
- * Header 3 stylesheet  
+ * Header 3 stylesheet
  * */
 .header-3-startup-antiflicker {
   border-bottom: 1px #bdc3c7 solid;
@@ -945,7 +945,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
 }
 /**
- * Header 12 stylesheet  
+ * Header 12 stylesheet
  * */
 .header-12 {
   padding-top: 0;
@@ -1225,7 +1225,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
 }
 /**
- * Crew 4 stylesheet  
+ * Crew 4 stylesheet
  * */
 .crew-4 {
   padding-top: 110px;
@@ -1794,7 +1794,7 @@ svg,
   }
 }
 /**
- * Copntact 5 stylesheet  
+ * Copntact 5 stylesheet
  * */
 .contacts-5 h6 {
   font-size: 18px;
@@ -1829,7 +1829,7 @@ svg,
   }
 }
 /**
- * Content 17 stylesheet  
+ * Content 17 stylesheet
  * */
 .content-17 {
   position: relative;
@@ -1887,7 +1887,7 @@ svg,
   position: relative;
 }
 /**
- * Copntact 4 stylesheet  
+ * Copntact 4 stylesheet
  * */
 .contacts-4 {
   background: #34495e url('../../startup/common-files/img/caravana-web.jpg') 50% 50% no-repeat;
@@ -1976,7 +1976,7 @@ svg,
 }
 
 /**
- * Content 5 stylesheet  
+ * Content 5 stylesheet
  * */
 .content-5 {
   padding-top: 130px;
@@ -2113,7 +2113,7 @@ svg,
   }
 
   #speaker-nicolle-cysneiros > .number {
-    background-image: url("/startup/common-files/img/crew/nicolle-cysneiros.jpg");
+    background-image: url("/startup/common-files/img/crew/nicolle-cysneiros.png");
   }
 }
 
@@ -2142,7 +2142,7 @@ svg,
 }
 
 #speaker-nicolle-cysneiros.active > .number {
-  background-image: url("/startup/common-files/img/crew/nicolle-cysneiros.jpg");
+  background-image: url("/startup/common-files/img/crew/nicolle-cysneiros.png");
 }
 
 /*  */
@@ -2179,7 +2179,7 @@ svg,
   height: 100%;
 }
 
-.map-infowindow h5, 
+.map-infowindow h5,
 .map-infowindow p {
   margin-bottom: 0;
 }
