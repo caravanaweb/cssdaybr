@@ -2202,3 +2202,7 @@ svg,
 .partners-container .partners {
   transform: scale(0.7);
 }
+
+.label {
+  font-size: 90%;
+}
