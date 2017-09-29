@@ -176,8 +176,8 @@
 
     function BuildMap() {
         var posObj = {
-            'lat': -8.061088,
-            'lng': -34.872127
+            'lat': -8.060654,
+            'lng': -34.8719907
         };
 
         var position = new google.maps.LatLng(posObj.lat, posObj.lng);
@@ -214,7 +214,7 @@
 
         var contentString = '<div class="map-infowindow">' +
                                 '<h5>Porto Digital</h5>' + 
-                                '<p>Av. Cais do Apolo, 222 - Bairro do Recife.</p>' + 
+                                '<p>Rua do Apolo, 235 - Bairro do Recife.</p>' + 
                                 '<p>CEP 50030-230, Recife/PE - Brasil</p>' +
                             '</div>';
         
